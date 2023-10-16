@@ -1,4 +1,4 @@
-/* Styling the section hero */
+/* Styling and custom properties for the nav */
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
@@ -575,9 +575,9 @@ a:active {
 .nav .nav-link::before {
   content: '';
   position: absolute;
-  top: 0;
+  bottom: 0;
   left: 0;
-  background-color: var(--nav-item-link-hover);
+  background-color: var(--color-white);
   width: 0;
   height: 0.2rem;
 }
